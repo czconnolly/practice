@@ -8,11 +8,11 @@
 		<h1> Caitlins Project </h1>
 		<p> On this page you can query the database I created from a GEO (Gene Expression Omnibus) data set
 	<!--submits data to be processed by the python script-->
-	<form method=POST action=cgi-bin/queries.py>
+	<form method=GET action=cgi-bin/queries.py>
 	<table><tr>
 		<td> select probe names where the gene ID = </td>
-		<td><input type=text name=query></td>
-		<td><input type='submit' value='submit'></td>
+		<td><input type=text name=query></td> <!-- text box for input -->
+		<td><input type='submit' value='submit'></td> <!-- creates a submit button -->
 	</tr></table>
 	</form>
 	</body>
